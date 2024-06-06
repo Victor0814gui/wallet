@@ -1,0 +1,39 @@
+:root {
+  /* --violet: #0091EA; */
+  /* --violet: #FF9100; */
+  --violet: blueviolet;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('../assets/fonts/Poppins-Medium.ttf');
+}
+
+body{
+  min-height: 96vh;
+  max-width: 100vw;
+  /* background-color: #f2f2f2; */
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+input,
+button,
+a{
+    font-family: Poppins;
+}

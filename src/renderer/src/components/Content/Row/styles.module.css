@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+}
+
+
+@media screen and (max-width: 720px) {
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+}

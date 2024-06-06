@@ -1,0 +1,12 @@
+
+#title-bar {
+    -webkit-app-region: drag; /* Permite arrastar a janela ao clicar na barra */
+    width: 100%;
+    height: 30px; /* Ajuste conforme necessário */
+    background-color: transparent; /* Cor de fundo transparente */
+    -webkit-user-select: none; /* Impede a seleção de texto na barra de título */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999; /* Certifique-se de que a barra de título esteja na frente de tudo */
+}
