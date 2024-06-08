@@ -28,7 +28,7 @@ function createWindow() {
       webSecurity: false
     }
   });
-  mainWindow.loadURL("http://localhost:5174/dashboard");
+  mainWindow.loadURL("http://localhost:5173/dashboard");
   mainWindow.on("closed", () => mainWindow = null);
 }
 app.whenReady().then(() => {

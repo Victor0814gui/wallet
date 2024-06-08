@@ -1,68 +1,70 @@
-.container{
-    display: flex;
-    width: 300px;
-    max-height: 100vh;
-    gap: 8px;
-    padding: 21px;  
-    flex-direction: column;   
-    background-color: blueviolet;
-
-        /* margin: 12px;
-        border-radius: 12px; */
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 300px;
+  max-height: 100vh;
+  gap: 8px;
+  padding: 21px;
+  flex-direction: column;
+  background-color: var(--violet);
 }
 
-.logo{
-    color: white;
+.row {
+  display: flex;
+  align-items: center;
+  gap: 7px;
 }
 
-.content{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    padding-top: 52px;
-    gap: 4px;
+.logo {
+  color: white;
 }
 
-
-.content div:nth-child(1),
- .item:nth-child(1) svg path,
- .item:nth-child(1) .itemText
- {
-    background-color: white;
-    fill: var(--violet);
-    color: var(--violet);
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-top: 52px;
+  gap: 4px;
 }
 
-.item{
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    border-radius: 32px;
-    width: 100%;
-    padding: 10px 21px;
+.content div:nth-child(2),
+.item:nth-child(2) svg path,
+.item:nth-child(2) .itemText {
+  background-color: white;
+  fill: var(--violet);
+  color: var(--violet);
+}
 
-    transition: 0.2s all;
+.item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border-radius: 32px;
+  width: 100%;
+  padding: 10px 21px;
+
+  transition: 0.2s all;
 }
 
 .content div:hover,
- .item:hover svg path{
-    background-color: white;
-    fill: var(--violet);
-    color: var(--violet);
-    cursor: pointer;
+.item:hover svg path {
+  background-color: white;
+  fill: var(--violet);
+  color: var(--violet);
+  cursor: pointer;
 }
 
-.item:hover .itemText{
-    color: var(--violet);
+.item:hover .itemText {
+  color: var(--violet);
 }
 
-.item svg path{
-    transition: 0.2s all;
-    fill: white;
+.item svg path {
+  transition: 0.2s all;
+  fill: white;
 }
 
-.itemText{
-    transition: 0.4s all;
-    font-size: 16px;
-    color: white;
+.itemText {
+  transition: 0.4s all;
+  font-size: 16px;
+  color: white;
 }

@@ -4,8 +4,7 @@
   --violet: blueviolet;
 }
 
-
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -13,16 +12,14 @@
 
 @font-face {
   font-family: Poppins;
-  src: url('../assets/fonts/Poppins-Medium.ttf');
+  src: url("../assets/fonts/Poppins-Medium.ttf");
 }
 
-body{
+body {
   min-height: 96vh;
   max-width: 100vw;
   /* background-color: #f2f2f2; */
 }
-
-
 
 h1,
 h2,
@@ -34,6 +31,6 @@ p,
 span,
 input,
 button,
-a{
-    font-family: Poppins;
+a {
+  font-family: Poppins;
 }

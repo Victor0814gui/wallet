@@ -1,78 +1,76 @@
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    background-color: rgba(0, 0, 0, 0.205);
+  background-color: rgba(0, 0, 0, 0.205);
 
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
-.modal{
-    background-color: #ffffff;
-    max-width: 500px;
-    padding: 42px 21px;
-    border-radius: 12px;
+.modal {
+  background-color: #ffffff;
+  max-width: 500px;
+  padding: 42px 21px;
+  border-radius: 12px;
 
-    gap: 22px;
+  gap: 22px;
 
-    -webkit-box-shadow: 2px 10px 53px -20px #00000063;
-    -moz-box-shadow: 2px 10px 53px -20px #00000063;
-    box-shadow: 2px 10px 53px -20px #00000063;
+  -webkit-box-shadow: 2px 10px 53px -20px #00000063;
+  -moz-box-shadow: 2px 10px 53px -20px #00000063;
+  box-shadow: 2px 10px 53px -20px #00000063;
 
-    z-index: 999;
+  z-index: 999;
 }
 
-.header{
-    display: flex;
-    align-items: center;
-    gap: 7px;
+.header {
+  display: flex;
+  align-items: center;
+  gap: 7px;
 }
 
-.title{
-    font-weight: 500;
-    font-size: 30px;
+.title {
+  font-weight: 500;
+  font-size: 30px;
 }
 
-.description{
-    color: #484848;
+.description {
+  color: #484848;
 }
 
-.footer{
-    display: flex;
-    gap: 7px;
-    justify-content: flex-end;
-    margin-top: 12px;
+.footer {
+  display: flex;
+  gap: 7px;
+  justify-content: flex-end;
+  margin-top: 12px;
 }
 
+.button {
+  padding: 12px 26px;
+  border-radius: 21px;
+  border: 0;
+  background-color: #d9d9d9;
 
-.button{
-    padding: 12px 26px;
-    border-radius: 21px;
-    border: 0;
-    background-color: #d9d9d9;
-
-
-    cursor: pointer;
-    transition: 0.2s all;
+  cursor: pointer;
+  transition: 0.2s all;
 }
 
-.buttonColored{
-    color: #f2f2f2;
-    background-color: blueviolet;
+.buttonColored {
+  color: #f2f2f2;
+  background-color: var(--violet);
 }
 
-.button:hover{
-    color: #f2f2f2;
-    background-color: #7123b9;
+.button:hover {
+  color: #f2f2f2;
+  filter: brightness(0.8);
 }
 
-.button:active{
-    color: #f2f2f2;
-    background-color: #5f18a2;
-    cursor: default;
+.button:active {
+  color: #f2f2f2;
+  filter: brightness(0.6);
+  cursor: default;
 }
