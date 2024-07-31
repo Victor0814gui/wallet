@@ -14,6 +14,7 @@ import {
   PointElement,
   LineElement,
 } from "chart.js";
+import { COLORS } from "../../styles/colors";
 
 ChartJS.register(
   CategoryScale,
@@ -32,15 +33,15 @@ const data = {
     {
       label: "Vendas do mês",
       data: [65, 59, 80, 81, 56, 55, 40],
-      backgroundColor: "blueviolet",
-      borderColor: "blueviolet",
+      backgroundColor: COLORS.primary,
+      borderColor: COLORS.primary,
       borderWidth: 1,
     },
     {
       label: "Gastos do mês",
       data: [42, 32, 62, 12, 53, 43, 38],
       backgroundColor: "white",
-      borderColor: "blueviolet",
+      borderColor: COLORS.primary,
       borderWidth: 2,
     },
   ],
@@ -66,7 +67,7 @@ const lineChatData = {
       label: "Vendas de 2021",
       data: [65, 59, 80, 81, 56, 55, 40],
       fill: false,
-      borderColor: "blueviolet",
+      borderColor: COLORS.primary,
       tension: 0.1,
     },
     {

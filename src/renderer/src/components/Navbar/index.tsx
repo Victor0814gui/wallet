@@ -19,9 +19,14 @@ export function Navbar() {
   const navigate = useNavigate();
   return (
     <div className={styles.container}>
-      <div className={styles.row}>
-        <Cardholder size={42} weight="fill" color="white" />
-        <h1 className={styles.logo}>Wallet</h1>
+      <div className={styles.column}>
+        <div className={styles.row}>
+          <Cardholder size={42} weight="fill" color="white" />
+          <h1 className={styles.logo}>Wallet</h1>
+        </div>
+        <p className={styles.itemText}>
+          Saúde: <span>ótima</span>
+        </p>
       </div>
       <div className={styles.content}>
         <div className={styles.item} onClick={() => navigate("/dashboard")}>
@@ -32,9 +37,9 @@ export function Navbar() {
           <ChartPieSlice size={26} weight="fill" />
           <p className={styles.itemText}>Analytics</p>
         </div>
-        <div className={styles.item} onClick={() => navigate("/timer")}>
+        <div className={styles.item} onClick={() => navigate("/scheduleds")}>
           <Timer size={26} weight="fill" />
-          <p className={styles.itemText}>Timer</p>
+          <p className={styles.itemText}>Scheduleds</p>
         </div>
         <div className={styles.item} onClick={() => navigate("/purchases")}>
           <Cardholder size={26} weight="fill" />

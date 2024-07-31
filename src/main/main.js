@@ -27,7 +27,9 @@ function createWindow() {
   });
 
   // Vite DEV server URL
+
   mainWindow.loadURL('http://localhost:5173/dashboard');
+  // mainWindow.loadURL('http://localhost:5174/');
   mainWindow.on('closed', () => mainWindow = null);
 }
 

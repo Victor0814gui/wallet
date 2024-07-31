@@ -1,7 +1,8 @@
 :root {
-  /* --violet: #0091EA; */
-  /* --violet: #FF9100; */
-  --violet: blueviolet;
+  --violet: #0091ea;
+  /* --violet: #75e900; */
+  /* --violet: #ff9100; */
+  /* --violet: blueviolet; */
 }
 
 * {
