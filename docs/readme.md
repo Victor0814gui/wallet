@@ -1,6 +1,6 @@
 Aqui está uma versão reorganizada e otimizada do README para o software de gestão de finanças "Wallet". Incluí também algumas seções adicionais que considero importantes:
 
----
+           
 
 # Wallet <span style="padding: 0 12px; border-radius:21px;background: #75e900;color: #000000">Info</span>
 
@@ -22,13 +22,14 @@ Aqui está uma versão reorganizada e otimizada do README para o software de ges
 
 - **Interface Responsiva**: As cores do aplicativo mudam de acordo com a saúde financeira do cliente, fornecendo uma representação visual clara da sua situação financeira.
 
-- **Ajuda com as contas**: Nesse mecanismo o app pede acesso aos meios devedores do cliente e oferece sugestões para que a pessoa aproveite os melhores momentos para resolver sua vida financeira. (Talvez seja possivel forcenecer acesso a outras pessoas que estejam interessados em comprar e negociar a divida a uma certa taxa de juros).
+- **Ajuda com as contas**:<span style="padding: 0 12px; border-radius:21px;background: #ff9100;color: #000000">ESTUDAR</span>
+ Nesse mecanismo o app pede acesso aos meios devedores do cliente e oferece sugestões para que a pessoa aproveite os melhores momentos para resolver sua vida financeira. (Talvez seja possivel forcenecer acesso a outras pessoas que estejam interessados em comprar e negociar a divida a uma certa taxa de juros).
 
 ## Como Começar
 
 1. **Clone o Repositório**: Clone este repositório para sua máquina local usando:
    ```bash
-   git clone https://github.com/seu-usuario/wallet.git
+   git clone https://github.com/victor0814gui/wallet.git
    ```
 
 2. **Instalação**: Instale as dependências necessárias:

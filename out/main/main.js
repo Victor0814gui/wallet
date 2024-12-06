@@ -28,7 +28,7 @@ function createWindow() {
       webSecurity: false
     }
   });
-  mainWindow.loadURL("http://localhost:5173/dashboard");
+  mainWindow.loadURL("https://www.bible.com/pt/bible/129/PSA.1.NVI");
   mainWindow.on("closed", () => mainWindow = null);
 }
 app.whenReady().then(() => {

@@ -10,7 +10,12 @@ export function Dashboard() {
     <div className={styles.container}>
       <Navbar />
       <div className={styles.content}>
-        <h1>Dashboard</h1>
+        <div className={styles.header}>
+          <h1>Dashboard</h1>
+          <div className={styles.headerActions}>
+            <button>Adicionar nova</button>
+          </div>
+        </div>
         <div className={styles.columns}>
           <div className={styles.box}>
             <h2 className={styles.heading}>Entradas do mês</h2>
